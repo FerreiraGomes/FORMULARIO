@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right,#bac3c7 ,#006790);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+fieldset{
+    border: 0ch;
+}
+.form {
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e4e4e;
+}
+.titulo{
+    margin-left: 145px;
+    color: #4e4e4e;
+}
+.subtitulo{
+    margin-left: 100px;
+    padding: 5px;
+}
+.campo{
+    height: 30px;
+    padding: 2px;
+}
+.sobrenome, .nome, .email{
+    padding: 5px;
+    margin-left: auto;
+    height: 36px;
+}
+.genero{
+    margin-left: 270px;
+    margin-top: -30px;
+}
+#grupo{
+    margin-left: 40px;
+    padding: 15px;
+    height: 50px;
+    width: 340px;
+}
+.texto{
+    position: absolute;
+}
+.botao{
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4e4e4e;
+    border: 1px solid #e0e0e000;
+    width: 160px;
+    text-align: center;
+    padding: 18px;
+    color: #ebe3e3;
+    border-radius: 8px;
+    margin-left: 140px;
+    margin-top: 80px;
+    transition: all 1s;
+}
+.botao:hover{
+    background-color: #006790;
+}
+#estado, #genero{
+    width: 85px;
+    border-radius: 10px;
+    height: 30px;
+}
+input#nome, #Sobrenome, #email{
+    border-radius: 5px;
+    border: 1px solid;
+}
+textarea{
+    margin-left: 22px;
+    width: 100px;
+    height: 80px;
+}
+.texto1{
+    height: 40px;
+}
+
+
